@@ -1,0 +1,316 @@
+body {
+
+    background-color: #141414;
+}
+
+#nav {
+    background-color: #141414;
+    margin-left: 1rem;
+}
+
+#logo {
+
+    width: 200px;
+    height: 100px;
+}
+
+#logo:hover {
+
+    cursor: pointer;
+
+}
+
+#navbarSupportedContent a {
+
+    color: white;
+}
+
+#navbarSupportedContent a:hover {
+
+    color: grey;
+}
+
+#icons {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 1rem;
+    width: 300px;
+
+}
+
+#icons div {
+
+    width: 30px;
+}
+
+#icons div:nth-of-type(1):hover {
+
+    cursor: pointer;
+}
+
+#icons div:nth-of-type(2) {
+
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+
+#icons div:nth-of-type(2):hover {
+
+    cursor: pointer;
+}
+
+#icons div:nth-of-type(3) {
+
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+}
+
+#icons div:nth-of-type(3):hover {
+
+    cursor: pointer;
+}
+
+#icons div:nth-of-type(4) {
+
+    padding-left: 10px;
+}
+
+#icons div:nth-of-type(4):hover {
+    cursor: pointer;
+}
+
+#icons svg:nth-of-type(1):hover {
+
+    color: grey;
+}
+
+#icons p:hover {
+
+    color: grey;
+}
+
+#icons svg:nth-of-type(3):hover {
+
+    color: grey;
+}
+
+.ring {
+
+    position: absolute;
+}
+
+#ring-div .ring:nth-of-type(2) {
+
+    opacity: 0%;
+}
+
+#ring-div .ring:nth-of-type(2):hover {
+
+    opacity: 100%;
+    transition-duration: 2s;
+}
+
+
+#icons svg {
+    color: white;
+}
+
+#sec-son2 svg:hover {
+
+    cursor: pointer;
+}
+
+#icons p {
+
+    color: white;
+}
+
+
+
+#sec1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#sec-son {
+
+    display: flex;
+    gap: 0px 30px;
+    align-items: center;
+}
+
+#sec1 h1 {
+
+    color: white;
+}
+
+.btn-group button {
+
+    color: white;
+}
+
+#sec-son2 {
+
+    display: flex;
+    gap: 5px;
+    margin-right: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+#sec-son2 svg {
+    color: white;
+    border: 1px solid white;
+    padding: 3px;
+}
+
+#sec-son2 svg:hover {
+
+    color: grey;
+}
+
+.carousel-slide {
+
+    height: fit-content;
+    margin-left: 2rem;
+    padding-left: 20px;
+    overflow-x: auto;
+    width: 90%;
+}
+
+
+.carousel-slide h2,
+h3,
+h4 {
+
+    color: white;
+    font-size: 26px;
+    margin-bottom: 1rem;
+
+}
+
+
+.carousel-inner {
+
+    display: flex;
+    align-items: center;
+    height: 250px;
+
+}
+
+.carousel-first {
+
+    display: flex;
+    gap: 10px 10px;
+}
+
+.carousel-first img {
+
+    transition: transform 0.3s ease, filter 0.3s ease;
+    object-fit: cover;
+    position: relative;
+}
+
+
+
+.carousel-first img:hover {
+
+    transform: scale(1.3, 1.3);
+    overflow: clip;
+    z-index: 1;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+    padding: 10px;
+}
+
+
+
+footer {
+    position: relative;
+}
+
+#last {
+
+    width: 50%;
+    height: 350px;
+    background-color: #141414;
+    margin-top: 230px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 33%;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+#last div {
+
+    color: grey;
+    font-size: 15px;
+}
+
+
+#last-son2 {
+
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 20px;
+}
+
+
+#last-son2 svg {
+
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+#last-son2 svg:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#last-son3 {
+
+    display: flex;
+    gap: 1rem 3rem;
+    flex-wrap: wrap;
+
+}
+
+#last-son3 .last-brother:nth-of-type(1) p:nth-of-type(5) {
+
+    border: 2px solid grey;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.last-brother p:hover {
+
+    color: white;
+    cursor: pointer;
+}
