@@ -9,18 +9,18 @@ It's about a stylized clone focused on front-end, specifically we want to simula
 
 ## 🛠️ Main Functions
 **Gallery**
-- It is shown a gallery or movies/series list (e.g. Dogman, Collateral Beauty ecc.)
+- A gallery or movies and series is displayed (e.g. Dogman, Collateral Beauty ecc.)
 
 **Bootstrap**
-- It is used Bootstrap all along the project for responsive layout and UI components
+- Bootstrap is used throughout the project for responsive layout and UI components
 
 **Images upload**
-- There are images uploaded for movies and series
+- Movies and series images are included in the project
 
 **Carousel**
-- Handle the custom orizontal scroll in the sections with films
-- Use of "translateX" to move contents and simulate a fluid carousel
-- There are three rows of contents
+- Handles custom horizontal scrolling in the movie sections
+- Use "translateX" to shift contents and simulate a smooth carousel effect
+- Three rows of content are implemented 
 
 ## 🧪 How to run the project 
 
