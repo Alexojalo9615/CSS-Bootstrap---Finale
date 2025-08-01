@@ -24,5 +24,23 @@ It's about a stylized clone focused on front-end, specifically we want to simula
 
 ## 🧪 How to run the project 
 
-**Open Powershell & Clone the Repository**
-- git clone 
+**Extract the zip**
+- Download and unzip "CSS-Bootstrap-Finale.zip"
+- Choose an easy location, such as the Desktop
+
+**Open Powershell and navigate to the folder**
+- Open Powersheel and run: "C:\Users\(yourname)\Desktop\CSS-Bootstrap-Finale"
+
+**Install http-server (if needed)**
+- npm install -g http-server
+
+**Run the local server**
+- Install the project folder, run: "http-server ."
+
+**Open the browser**
+- You will see output like: "http://127.0.0.1.8080
+- You can now visit the link in your browser to view the project
+
+## 🧷 Zip Project
+
+[CSS-Bootstrap-Finale.zip](https://github.com/user-attachments/files/21551647/CSS-Bootstrap-Finale.zip)
