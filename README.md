@@ -1,5 +1,5 @@
 # 🌱 Netflix Clone
-It's about a stylized clone focused on front-end, specifically we want to simulate the Netflix front-end page
+It's about a stylized Netflix clone focused on front-end, specifically we want to simulate the front-end page
 
 ## 🚀 Tech Stack
 - **Front-end:** JavaScript, CSS3, HTML5
